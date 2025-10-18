@@ -1,20 +1,21 @@
 #include <stdio.h>
+#include <string.h>
 int main()
 {
-    char st[1001],sd[1222];
+    char st[100000],sd[100000];
     scanf("%s %s",&st,&sd);
      int value = strcmp(st,sd);
-    if(st>0)
+    if(value>0)
 
     
     {
 
-     printf("%s",st);
+     printf("%s\n",st);
 
     }
-    else if(st<0)
+    else if(value<0)
 
     {
-        printf("%s",st);
+        printf("%s\n",st);
     }
 }
