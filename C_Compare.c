@@ -5,7 +5,7 @@ int main()
     char st[100000],sd[100000];
     scanf("%s %s",&st,&sd);
      int value = strcmp(st,sd);
-    if(value>0)
+    if(value<=0)
 
     
     {
@@ -13,7 +13,7 @@ int main()
      printf("%s\n",st);
 
     }
-    else if(value<0)
+    else 
 
     {
         printf("%s\n",st);
