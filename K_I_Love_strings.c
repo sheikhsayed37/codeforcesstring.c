@@ -5,6 +5,8 @@ int main()
     int n; 
     scanf("%d",&n);              // test case 50 kojtese 2 ta 
     for(int i=1;i<=n;i++)
+    
+    
     {
         char st[55],sd[55];
         scanf("%s %s",st,sd);    // just ipAsu ccsit loop 1 , porer ey gpt k loop 2 te nibe 
