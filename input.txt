@@ -1,1 +1,6 @@
-5
+if(i+j == n-1)
+                {
+                    sum1=sum1+array[i][j];
+                }
+                int diff=abs(sum-sum1);
+printf("%d",diff);
